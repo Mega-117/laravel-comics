@@ -1,0 +1,248 @@
+.container {
+  width: 960px;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .logo-container {
+  width: 60px;
+}
+
+nav img {
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  margin: 0;
+  /* .link-menu:hover {
+    color: #0282f9;
+  } */
+}
+
+ul .item {
+  padding: 25px 10px;
+  border-bottom: 5px solid transparent;
+}
+
+ul .item a {
+  padding: 25px 0px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+ul .item a:hover {
+  color: #0282f9;
+}
+
+ul .item:hover {
+  border-bottom: 5px solid #0282f9;
+}
+
+.hero-container {
+  height: 300px;
+  background-image: url("/img/jumbotron.jpg");
+  background-size: cover;
+}
+
+.hero-container img {
+  width: 100%;
+}
+
+.card {
+  width: calc(16.6666666667% - 10px);
+  background-color: transparent;
+  margin-bottom: 5px;
+}
+
+.card .title {
+  width: 140px;
+}
+
+.card .title h6 {
+  padding: 15px 0 10px;
+  color: white;
+  text-transform: uppercase;
+  line-height: 15px;
+}
+
+.card .img-container {
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+}
+
+.card .img-container img {
+  width: 100%;
+}
+
+.bg-content {
+  background-color: #1c1c1c;
+  padding: 50px 0;
+}
+
+.bg-content .btn-series,
+.bg-content .btn-load-more {
+  background-color: #0282f9;
+  color: white;
+  border: 0;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.bg-content .btn-series {
+  position: absolute;
+  top: -72px;
+  padding: 10px 15px;
+}
+
+.bg-content .btn-load-more {
+  padding: 7px 35px;
+  font-size: 14px;
+}
+
+.bg-content .product-bottom-nav {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.bg-navbar2 {
+  background-color: #0282f9;
+}
+
+.main-container {
+  width: 960px;
+  margin: auto;
+  position: relative;
+}
+
+.main-container .product-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.main-container ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  gap: 15px;
+  padding: 30px;
+}
+
+.main-container ul img {
+  width: 35px;
+  max-height: 40px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  vertical-align: middle;
+}
+
+.main-container ul a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-left: 7px;
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+footer {
+  overflow: hidden;
+  position: relative;
+}
+
+footer .bg-footer {
+  background-image: url(/img/footer-bg.jpg);
+  background-size: cover;
+}
+
+.footer-container {
+  width: 960px;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.footer-container img.logo-big {
+  position: absolute;
+  top: -150px;
+  right: 140px;
+  transform: scale(0.8);
+}
+
+.footer-container .footer-list-container {
+  position: relative;
+  display: flex;
+}
+
+.footer-container .footer-list-container .footer-col {
+  margin-right: 20px;
+}
+
+.footer-container .footer-list-container .footer-col h2 {
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.footer-container .footer-list-container .footer-col ul {
+  padding-left: 0px;
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.footer-container .footer-list-container .footer-col ul li {
+  color: #959595;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.bg-footer-dark {
+  background-color: #303030;
+  position: relative;
+}
+
+.bg-footer-dark .footer-link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bg-footer-dark .footer-link .social-container {
+  display: flex;
+  align-items: center;
+}
+
+.bg-footer-dark .footer-link .social-container h1 {
+  color: #0282f9;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-right: 25px;
+}
+
+.bg-footer-dark .footer-link .social-container .social-icon-container img {
+  padding: 0 5px;
+}
+
+.bg-footer-dark .sign-btn {
+  border: 3px solid #0282f9;
+  background-color: transparent;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
