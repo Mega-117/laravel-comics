@@ -8,7 +8,7 @@
   }
 
 
-  .card {
+/*   .card {
     width: calc((100% / 6) - 10px);
     background-color: transparent;
     margin-bottom: 5px;
@@ -29,7 +29,7 @@
         width: 100%;
       }
     }
-  }
+  } */
 
 
 
@@ -83,6 +83,7 @@
       list-style-type: none;
       gap: 15px;
       padding: 30px;
+      margin-bottom: 0px;
   
       img {
         width: 35px;

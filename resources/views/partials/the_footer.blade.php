@@ -1,4 +1,4 @@
-<footer>
+  <footer>
     <div class="bg-footer">
       <div class="footer-container">
         <img class="logo-big" src="../assets/dc-logo-bg.png" alt="" />

@@ -1,0 +1,22 @@
+  .card {
+    width: calc((100% / 6) - 10px);
+    background-color: transparent;
+    margin-bottom: 5px;
+    .title {
+      width: 140px;
+      h6 {
+        padding: 15px 0 10px;
+        color: white;
+        text-transform: uppercase;
+        line-height: 15px;
+      }
+    }
+    .img-container {
+      width: 140px;
+      height: 140px;
+      overflow: hidden;
+      img {
+        width: 100%;
+      }
+    }
+  }

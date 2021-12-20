@@ -19,7 +19,7 @@ $main_menu =[
       <div class="logo-container">
         <img src="{{asset('img/dc-logo.png')}}" alt="" />
       </div>
-      <ul>
+      <ul class="main-menu">
         @foreach ($main_menu as $single_menu)
             
         <li class="item">

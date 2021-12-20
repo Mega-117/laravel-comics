@@ -126,7 +126,8 @@ $navBarSecondary= [
       <button class="btn-series">current series</button>
       
       <div class="product-container">
-          @foreach ($productsList as $item)
+          @include('products.index')
+          {{-- @foreach ($productsList as $item)
           <div class="card">
               <div class="img-container">
                   <img src="{{$item['thumb']}}" alt="" />
@@ -135,7 +136,7 @@ $navBarSecondary= [
                     <h6>{{$item['series']}}</h6>
                 </div>
             </div>
-            @endforeach
+            @endforeach --}}
       </div>
       <div class="product-bottom-nav">
         <button class="btn-load-more">load more</button>
