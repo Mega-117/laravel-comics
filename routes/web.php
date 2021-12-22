@@ -14,9 +14,29 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home.index');
+    $dataComics = config("db_products");
+    $listaComicConId = [];
+    foreach ($dataComics as $key => $singoloComic) {
+        $singoloComic["id"] = $key;
+        $listaComicConId[] = $singoloComic;
+    }
+    dump($listaComicConId);
+    return view('home.index', ["listaComicConId"=> $listaComicConId]);
 })->name('home.index');
 
-Route::get('/prodotti', function(){
-    return view('products.index');
+/* Route::get('/prodotti', function(){
+    $dataComics = config("db_products");
+    return view('products.index', ["comicsList"=> $dataComics]);
 })->name('products.index');
+ */
+
+
+Route::get('/prodotto/{id?}', function ($id) {
+    $dataComics = config("db_products");
+    if($id >= 0 && $id < count($dataComics)){
+        $singoloComic = $dataComics[$id];
+        dump($singoloComic);
+        return view("pages.product-detail", ["fumetto" => $singoloComic]);
+
+    }
+})->name("pages.product-detail");

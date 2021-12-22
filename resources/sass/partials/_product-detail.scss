@@ -1,0 +1,64 @@
+
+.bg-comic-prev{
+    background-color: #0282f9;
+    height: 80px;
+    position: relative;
+    .comic-prev{
+        height: 200px;
+        width: 120px;
+        z-index: 3;
+        position: absolute;
+        top: -140;
+        left: 0;
+    }
+        img{
+            width: 100%;
+            
+        }
+        .comic-prev-sub-title{
+            background-color: #00a9d9;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            span{
+                font-size: 12px;
+                color: white;
+            }
+        }
+    
+}
+.product-info{
+    h2{
+        text-transform: uppercase;
+    }
+    .product-detail{
+        background-color: #55ba59;
+        height: 45px;
+        color: white;
+        line-height: 45px;
+    }
+    .description-text{
+        padding-top: 10px;
+    }
+}
+.sidebar-right{
+    text-align: right;
+}
+
+.info-section-title{
+    color: #003f5e;
+}
+.info-specs,
+.info-talent{
+    font-size: 12px;
+    font-weight: bold;
+    color: #003f5e;
+}
+.info-artits, .info-writers{
+    font-size: 12px;
+    font-weight: bold;
+    color: #00a9d9;
+}
+.series-text{
+    text-transform: uppercase;
+}
